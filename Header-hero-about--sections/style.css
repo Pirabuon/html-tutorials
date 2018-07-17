@@ -1,0 +1,69 @@
+/* //////// basic ////*/
+
+body {
+    margin: 0;
+}
+
+/* //////// header ////*/
+
+.mainheader {
+    height: auto;
+    background: #165b61;
+    text-align: center;
+}
+
+.navigation {
+    font-size: 20px;
+    list-style: none;
+    background: #073338;
+}
+
+.navigation li {
+    display: inline-block;
+    padding: 20px;
+    background: #f3f2f3;
+}
+
+.mainheader h1 {
+    padding: 20px;
+    color: #fff;
+}
+
+/* //////// hero image ////*/
+
+.container .heroimage {
+    width: 100%;
+    height: 300px;
+    background-image: url(image/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 10rem;
+}
+
+.container .heroimage h2 {
+    font-size: 3rem;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 3rem;
+}
+
+/* //////// about ////*/
+
+.container .about {
+    width: 1000px;
+    margin: auto;
+}
+
+.container .about .text {
+    width: 50%;
+    float: left;
+}
+
+.container .about .image {
+    width: 50%;
+    float: left;
+}
+
+.container .about .image img {
+    width: 100%;
+}
